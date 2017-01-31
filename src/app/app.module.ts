@@ -6,10 +6,12 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { ChComponent } from './ch/ch.component';
+import { GitComponent } from './git/git.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ChComponent
+    ChComponent,
+    GitComponent
   ],
   imports: [
     BrowserModule,
